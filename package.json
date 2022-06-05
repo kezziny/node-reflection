@@ -1,0 +1,29 @@
+{
+  "name": "reflection",
+  "version": "1.0.0",
+  "description": "Object reflection and metadata",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kezziny/node-reflection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kezziny/node-reflection/issues"
+  },
+  "homepage": "https://github.com/kezziny/node-reflection#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}
